@@ -1,0 +1,79 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/andrewwang/Desktop/CMPM151Midterm
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60539
+Successfully changed project path to: /Users/andrewwang/Desktop/CMPM151Midterm
+/Users/andrewwang/Desktop/CMPM151Midterm
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 34.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/andrewwang/Desktop/CMPM151Midterm/Assets
+GfxDevice: creating device client; threaded=0
+2023-05-01 21:31:32.079 Unity[16255:451505] (null) preferred device: Apple M1 Pro (high power)
+2023-05-01 21:31:32.079 Unity[16255:451505] Metal devices available: 1
+2023-05-01 21:31:32.079 Unity[16255:451505] 0: Apple M1 Pro (high power)
+2023-05-01 21:31:32.080 Unity[16255:451505] Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56255
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001049 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 29.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.613 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002397 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.561 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1524 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.3 MB.
+System memory in use after: 123.4 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 1950.
+Total: 1.464334 ms (FindLiveObjects: 0.136875 ms CreateObjectMapping: 0.031959 ms MarkObjects: 1.230125 ms  DeleteObjects: 0.064584 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/OSCHandler.cs
+  artifactKey: Guid(da89b115944854688a70ab7725a5d9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OSCHandler.cs using Guid(da89b115944854688a70ab7725a5d9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffdd53cac83dd3b1af12d035354f0ef') in 0.112662 seconds
+  Import took 0.114717 seconds .
+
